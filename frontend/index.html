@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable Scheduler</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Timetable Scheduler</h1>
+        <p>Enter subject averages below, then generate your weekly timetable.</p>
+
+        <form id="subjectForm">
+            <div class="form-group">
+                <input type="text" id="subjectName" placeholder="Subject name" required />
+                <input type="number" id="subjectAverage" placeholder="Average score" min="0" max="100" required />
+                <button type="submit">Add Subject</button>
+            </div>
+        </form>
+
+        <div id="subjectsList"></div>
+
+        <button id="generateBtn" class="generate-btn">Generate Timetable</button>
+
+        <div id="timetable" class="timetable"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

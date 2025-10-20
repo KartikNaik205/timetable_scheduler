@@ -1,0 +1,86 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+.generate-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.timetable {
+    margin-top: 30px;
+}
+
+.timetable-day {
+    background: #0078ff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f8f9fa;
+    border-radius: 0 0 8px 8px;
+}
+
+.timetable-table th, .timetable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
